@@ -1,0 +1,13 @@
+# Never commit secrets
+.env
+.env.*
+*.pem
+*.key
+supabase/.temp/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+node_modules/
